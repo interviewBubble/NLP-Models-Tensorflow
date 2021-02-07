@@ -6,7 +6,7 @@
 
 ## Score and average time taken per epoch, not sorted
 
-Based on 20% validation. The results will be different on different dataset. Trained on a GTX 960, 4GB VRAM.
+Based on 20% validation, time taken based on single Tesla V100 32GB VRAM.
 
 | name                                 | accuracy | time taken (s) |
 |--------------------------------------|----------|----------------|
@@ -81,7 +81,11 @@ Based on 20% validation. The results will be different on different dataset. Tra
 | 69. slice-gru-bahdanau               | 0.70     | 20.247409      |
 | 70. wavenet                          | 0.59     | 101.293274     |
 | 71. transfer-learning-bert           | 0.81     | 887.590460     |
-| 72. transfer-learning-xlnet          | 0.846    | 340.7679       |
+| 72. transfer-learning-xlnet-large    | 0.846    | 340.7679       |
 | 73. lstm-birnn-max-avg               | 0.7552   | 9.35624        |
 | 74. transfer-learning-bert-base-6    | 0.7655   | 494.169        |
 | 75. transfer-learning-bert-large-12  | 0.80     | 1365.30        |
+| 76. transfer-learning-xlnet-base     | 0.820441 | 240.262        |
+| 77. transfer-learning-albert-base    | 0.799053 | 61.8179        |
+| 78. transfer-learning-electra-base   | 0.836336 | 66.0257        |
+| 79. transfer-learning-electra-large  | 0.875248 | 195.37280      |
